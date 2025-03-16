@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  background-image: url(wliv_hcm0_200619.jpg);
+  background-size: cover;
+}
+h1 {
+  margin: 0;
+}
+h2{
+  margin-top: 1px;
+}
+.btn{
+  height: 200px;
+  width: 200px;
+  border-radius: 30%;
+  border: 2px solid black;
+  margin: 1.5rem;
+}
+.btn-container{
+  display: flex;
+  text-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  bottom: 1.5rem;
+}
+.line-1{
+  margin-top: 0;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: orange;
+}
+.blue{
+  background-color: blue;
+}
+.flash {
+  background-color: #fff;
+}
+
+.userFlash{
+  background-color:grey ;
+}
+.btn:hover {
+  cursor: pointer;
+}
